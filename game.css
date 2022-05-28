@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    background-color: #232323;
+    font-family: "Monsterrat";
+}
+h1{
+    text-align: center;
+    line-height: 1.1;
+    padding: 20px 0;
+    font-weight: normal;
+    color: white;
+    background-color: steelblue;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.square{
+    width: 30%;
+    background:purple;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 15%;
+    transition: background 0.6s;
+}
+#container{
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.nav{
+    width: 100%;
+    background-color: white;
+    height: 40px;
+    
+    color: black;
+    margin: 0;
+    contain: content;
+}
+.littlenav{
+    width: 30%;
+    margin: 1.66%;
+    float: left;
+    margin-bottom:0%;
+}
+.selected{
+    color: white;
+    background: blue;
+}
+button{
+    border: none;
+    background-color: none;
+    text-transform: uppercase;
+    height: 100%;
+    color: steelblue;
+    transition: all 0.3s;
+
+}
+button:hover{
+    color:white;
+    background-color: steelblue;
+
+}
+#colorDisplay{
+    font-size:200%;
+}
